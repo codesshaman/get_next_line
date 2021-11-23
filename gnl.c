@@ -17,6 +17,7 @@ int	reader(int fd, char *str)
 	char	buff[BUFFSIZE + 1];
 	int		readed_bytes;
 
+	str = "\0";
 	read(fd, buff, BUFFSIZE);
 	str = ft_strdup(buff);
 	return (0);
