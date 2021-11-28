@@ -12,7 +12,7 @@
 
 #include "get_next_line.h"
 
-// Удаляем лишнее
+// Удаляет лишнее
 
 char	*cutting(char *str)
 {
@@ -72,7 +72,7 @@ char	*new_line(char *str)
 	return (buff);
 }
 
-// Читаем весь текст в static
+// Читает весь текст в static
 
 static char	*reader(int fd, char *str)
 {
